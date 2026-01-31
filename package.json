@@ -1,0 +1,32 @@
+{
+  "name": "video-integrity",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "verify": "node verify.js",
+    "hash": "node calculate-hash.js",
+    "verify-local": "node verify-local.js",
+    "test": "node test-video.js",
+    "check": "node check-setup.js",
+    "dev": "node server.js",
+    "process": "node process-video.js",
+    "verify-video": "node verify-video.js",
+    "setup-bucket": "node setup-bucket.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.91.0",
+    "axios": "^1.13.2",
+    "cors": "^2.8.6",
+    "crypto": "^1.0.1",
+    "dotenv": "^17.2.3",
+    "ethers": "^6.16.0",
+    "express": "^5.2.1",
+    "multer": "^2.0.2"
+  }
+}
